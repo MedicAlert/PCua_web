@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font-family: "Open Sans", sans-serif;
+	color: #7f8c8d;
 }
 
 .main {
@@ -159,7 +160,6 @@ li.head_act.red {
 
 div.footer{
 	bottom: 0;
-	position: absolute;
 	height: 10px;
 }
 
@@ -194,7 +194,7 @@ ul.footer{
 
 
 #download{
-	margin: 10px 10px 0px 10px;
+	margin: 10px;
 	border: 1px solid #3498db;
 	padding: 30px;
 	background-color: #3498db;
@@ -217,6 +217,66 @@ h4#dw_title{
 	padding-left: 20px;
 }
 
+.dw_act{
+	margin-top: 75px;
+}
+
+.dw_btn{
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+    padding: 7px 14px;
+    border: 1px solid #fff;
+	border-radius: 5px;
+}
+
+.dw_btn:hover{
+	background-color: white;
+	color: #3498db !important;
+}
+
+.dw_btn > .fa{
+	padding-right: 5px;
+	margin-right: 5px;
+	border-right: 1px solid;
+}
+
+.dw_btn.disabled{
+	border-color: #2980b9;
+	background-color: #2980b9;
+	color: #3498db !important;		
+}
+
 #features {
 
+}
+
+ul.dw_list{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li.dw_list{
+	list-style-type: none;
+	margin-bottom: 21px;
+}
+
+#qbox{
+	width: 300px;
+	height: 250px;
+	background-color: white;
+	float: right;
+}
+
+#qbox > h4{
+	font-size: 20px;
+	margin: 20px;
+}
+
+#qbox > p {
+	padding: 30px;
+	font-size: 15px;
+	padding-top: 0;
+	padding-left: 20px;
 }
